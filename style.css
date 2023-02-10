@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding:0px;
+}
+
+/* --------head--------- */
+.header {
+    background-image: url("images/banner/banner1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: end;
+
+    
+}
+.header-txt{
+    height: 100vh;
+    margin-right: 10%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    
+    
+    
+}
+.header-txt h1{
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.header-txt button{
+    padding: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f19022;
+    font-size: 16px;
+    font-weight: 600;
+    color:white;
+}
+
+/* ---------failures------------ */
+.failures{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.failures-txt h1{
+    font-weight: 600;
+    font-size: 30px;
+}
+.failures img{
+     width: 500px;
+}
+
+
+/* ---------Plan--------- */
+.plan{
+    margin-top: 150px;
+}
+.plan-txt{
+    text-align: center;
+    font-size: 34px;
+    font-weight: 800px;
+    margin-top: 50px;
+}
+
+
+.plan-carts{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 100px;
+}
+
+.cart h1{
+    margin: 5px;
+
+}
+
+/* ---------call-------- */
+.call{
+    font-size: 26px;
+    margin: 180px;
+    height: 50vh;
+    color: white;
+    background-image: linear-gradient(90deg, #db9a02 0%, rgba(255, 170, 0, 0) 100%),
+        url(images/watch.png);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: start;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+    border-radius: 15px;
+}
+
+.call button{
+    padding: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color:white;
+    font-size: 16px;
+    font-weight: 600;
+    color:#db9a02;
+}
+
+/* ------footer------- */
+footer {
+    background-color: rgb(23, 14, 0);
+    
+}
+.footer-sec{
+    margin-bottom: 0px;
+    color: beige;
+}
