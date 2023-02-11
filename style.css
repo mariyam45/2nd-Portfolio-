@@ -114,8 +114,48 @@ body{
 footer {
     background-color: rgb(23, 14, 0);
     
+    
 }
 .footer-sec{
     margin-bottom: 0px;
     color: beige;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+/* .footer-txt{
+    padding: px;
+} */
+.footer-icon{
+    width: 36px;
+    margin-left: 10px;
+}
+.subscribe input{
+    width: 300px;
+    padding: 8px;
+    border-color: white;
+    background: #000;
+    border-radius: 5px;
+    color: rgb(201, 200, 200);
+    margin-bottom: 15px;
+
+}
+.subscribe button{
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color:white;
+    font-size: 16px;
+    font-weight: 600;
+    color: #cd5500;
+}
+
+/* ----------about me------ */
+.about-me{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
 }
